@@ -8,5 +8,6 @@ namespace Shopping_System
 {
     internal class Product_management
     {
+
     }
 }

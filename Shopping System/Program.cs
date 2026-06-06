@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Components;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,10 @@ namespace Shopping_System
     {
         static void Main(string[] args)
         {
-        //all objects of classes will be created here
+            // ALWAYS LOAD THESE TO METHODS BEFORE CALLING ADDTOPRODUCTS OR REMOVEFROMPRODUCTS
+            // otherwise all the fake data store in products.json will be overwritten
+            ProductManager.LoadProductsFromJson();
+            ProductManager.DisplayCategoryProducts();
         }
     }
 }

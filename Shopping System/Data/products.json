@@ -1,0 +1,902 @@
+[
+  {
+    "ProductName": "Savory Pumpkin Soup",
+    "ProductId": "Af79a",
+    "Description": "Creamy pumpkin soup with spices",
+    "Price": 1589.19,
+    "StockQuantity": 5875,
+    "Category": "Food - Soups",
+    "AverageRating": 0.74
+  },
+  {
+    "ProductName": "Electric Can Opener",
+    "ProductId": "Af79a",
+    "Description": "Automatic can opener for easy meal prep.",
+    "Price": 1757.06,
+    "StockQuantity": 6087,
+    "Category": "Kitchen",
+    "AverageRating": 0.45
+  },
+  {
+    "ProductName": "Smartphone Photography Ring Light",
+    "ProductId": "Af79a",
+    "Description": "Portable ring light that enhances your photos with perfect lighting.",
+    "Price": 615.0,
+    "StockQuantity": 1214,
+    "Category": "Photography",
+    "AverageRating": 3.2
+  },
+  {
+    "ProductName": "Pet Carrier Backpack",
+    "ProductId": "Af79a",
+    "Description": "Comfortable and breathable backpack for carrying small pets.",
+    "Price": 85.97,
+    "StockQuantity": 5327,
+    "Category": "Pets",
+    "AverageRating": 1.86
+  },
+  {
+    "ProductName": "Smart Air Purifier",
+    "ProductId": "Af79a",
+    "Description": "Filters allergens and pollutants from the air for a healthier home.",
+    "Price": 414.66,
+    "StockQuantity": 5290,
+    "Category": "Home",
+    "AverageRating": 2.65
+  },
+  {
+    "ProductName": "Coconut Macaroons",
+    "ProductId": "Af79a",
+    "Description": "Chewy cookies made with coconut, perfect for sweet cravings.",
+    "Price": 619.43,
+    "StockQuantity": 8451,
+    "Category": "Food - Confectionery",
+    "AverageRating": 2.03
+  },
+  {
+    "ProductName": "Organic Granola",
+    "ProductId": "Af79a",
+    "Description": "Healthy granola made with oats and honey.",
+    "Price": 784.68,
+    "StockQuantity": 9945,
+    "Category": "Food - Breakfast",
+    "AverageRating": 0.36
+  },
+  {
+    "ProductName": "Multi-Purpose Scissors",
+    "ProductId": "Af79a",
+    "Description": "Heavy-duty scissors for crafting and office use.",
+    "Price": 61.4,
+    "StockQuantity": 4095,
+    "Category": "Office",
+    "AverageRating": 0.31
+  },
+  {
+    "ProductName": "Wall Calendar",
+    "ProductId": "Af79a",
+    "Description": "Beautiful wall calendar for organizing your schedule.",
+    "Price": 1416.58,
+    "StockQuantity": 3774,
+    "Category": "Home",
+    "AverageRating": 3.66
+  },
+  {
+    "ProductName": "Trackpad for Laptop",
+    "ProductId": "Af79a",
+    "Description": "Wireless trackpad for enhanced laptop navigation.",
+    "Price": 1472.93,
+    "StockQuantity": 9298,
+    "Category": "Accessories",
+    "AverageRating": 4.92
+  },
+  {
+    "ProductName": "Pasta (Linguine)",
+    "ProductId": "Af79a",
+    "Description": "Thin, flat pasta perfect for various sauces.",
+    "Price": 257.32,
+    "StockQuantity": 2191,
+    "Category": "Food - Pasta",
+    "AverageRating": 4.77
+  },
+  {
+    "ProductName": "Pasta Salad Kit",
+    "ProductId": "Af79a",
+    "Description": "All-in-one kit for making pasta salad easily.",
+    "Price": 1540.46,
+    "StockQuantity": 638,
+    "Category": "Food - Prepared Foods",
+    "AverageRating": 1.39
+  },
+  {
+    "ProductName": "Waterproof Rain Boots",
+    "ProductId": "Af79a",
+    "Description": "Stay dry with these stylish waterproof rain boots.",
+    "Price": 1100.1,
+    "StockQuantity": 3083,
+    "Category": "Clothing - Footwear",
+    "AverageRating": 4.13
+  },
+  {
+    "ProductName": "Dog Training Collar",
+    "ProductId": "Af79a",
+    "Description": "Rechargeable training collar for effective behavior training.",
+    "Price": 475.0,
+    "StockQuantity": 279,
+    "Category": "Pets",
+    "AverageRating": 1.37
+  },
+  {
+    "ProductName": "Over-The-Door Shoe Organizer",
+    "ProductId": "Af79a",
+    "Description": "Space-saving shoe organizer for tight spaces.",
+    "Price": 1720.92,
+    "StockQuantity": 1134,
+    "Category": "Home",
+    "AverageRating": 2.76
+  },
+  {
+    "ProductName": "Fridge Magnet Set",
+    "ProductId": "Af79a",
+    "Description": "Fun fridge magnets to decorate your kitchen.",
+    "Price": 1471.69,
+    "StockQuantity": 4080,
+    "Category": "Home",
+    "AverageRating": 0.81
+  },
+  {
+    "ProductName": "Hiking Boots",
+    "ProductId": "Af79a",
+    "Description": "Comfortable hiking boots for outdoor adventures.",
+    "Price": 1930.49,
+    "StockQuantity": 1546,
+    "Category": "Footwear",
+    "AverageRating": 2.18
+  },
+  {
+    "ProductName": "Chiffon Blouse",
+    "ProductId": "Af79a",
+    "Description": "Elegant chiffon blouse perfect for work or outings.",
+    "Price": 380.92,
+    "StockQuantity": 7604,
+    "Category": "Clothing - Shirts",
+    "AverageRating": 2.74
+  },
+  {
+    "ProductName": "Veggie Chips Variety Pack",
+    "ProductId": "Af79a",
+    "Description": "A colorful variety of crunchy veggie chips for snacking.",
+    "Price": 238.36,
+    "StockQuantity": 6475,
+    "Category": "Food - Snacks",
+    "AverageRating": 4.94
+  },
+  {
+    "ProductName": "Herbal Tea Infuser",
+    "ProductId": "Af79a",
+    "Description": "Infuser for brewing loose-leaf herbal teas easily.",
+    "Price": 1842.76,
+    "StockQuantity": 6880,
+    "Category": "Kitchen",
+    "AverageRating": 4.81
+  },
+  {
+    "ProductName": "Motorcycle Phone Mount",
+    "ProductId": "Af79a",
+    "Description": "Universal mount for smartphones on motorcycles.",
+    "Price": 1776.92,
+    "StockQuantity": 3710,
+    "Category": "Automotive",
+    "AverageRating": 2.52
+  },
+  {
+    "ProductName": "Stainless Steel BBQ Grill Set",
+    "ProductId": "Af79a",
+    "Description": "Essential tools for outdoor barbecues including tongs and spatula.",
+    "Price": 1417.99,
+    "StockQuantity": 4805,
+    "Category": "Outdoor",
+    "AverageRating": 2.33
+  },
+  {
+    "ProductName": "Outdoor Picnic Blanket",
+    "ProductId": "Af79a",
+    "Description": "Water-resistant blanket for picnics and outdoor events.",
+    "Price": 77.2,
+    "StockQuantity": 9842,
+    "Category": "Outdoor",
+    "AverageRating": 0.86
+  },
+  {
+    "ProductName": "Scented Candle Set",
+    "ProductId": "Af79a",
+    "Description": "Set of soothing scented candles for relaxation and ambiance.",
+    "Price": 858.99,
+    "StockQuantity": 7698,
+    "Category": "Home",
+    "AverageRating": 0.62
+  },
+  {
+    "ProductName": "Watercolor Set",
+    "ProductId": "Af79a",
+    "Description": "Complete watercolor set with paints and brushes.",
+    "Price": 1881.22,
+    "StockQuantity": 4051,
+    "Category": "Art Supplies",
+    "AverageRating": 4.28
+  },
+  {
+    "ProductName": "High-Speed Blender",
+    "ProductId": "Af79a",
+    "Description": "Powerful blender for smoothies and soups.",
+    "Price": 70.64,
+    "StockQuantity": 4887,
+    "Category": "Kitchen",
+    "AverageRating": 3.52
+  },
+  {
+    "ProductName": "Mashed Sweet Potatoes",
+    "ProductId": "Af79a",
+    "Description": "Creamy mashed sweet potatoes with a hint of cinnamon.",
+    "Price": 1304.23,
+    "StockQuantity": 5565,
+    "Category": "Food - Sides",
+    "AverageRating": 2.14
+  },
+  {
+    "ProductName": "Buffalo Chicken Wraps",
+    "ProductId": "Af79a",
+    "Description": "Savory wraps with buffalo chicken and fresh vegetables.",
+    "Price": 546.12,
+    "StockQuantity": 6747,
+    "Category": "Food - Prepared Meals",
+    "AverageRating": 3.5
+  },
+  {
+    "ProductName": "Cordless Water Flosser",
+    "ProductId": "Af79a",
+    "Description": "Rechargeable water flosser for dental hygiene.",
+    "Price": 1600.02,
+    "StockQuantity": 8512,
+    "Category": "Health",
+    "AverageRating": 1.63
+  },
+  {
+    "ProductName": "Dark Chocolate Covered Pretzels",
+    "ProductId": "Af79a",
+    "Description": "Crunchy pretzels dipped in rich dark chocolate.",
+    "Price": 1894.18,
+    "StockQuantity": 1558,
+    "Category": "Food - Snacks",
+    "AverageRating": 4.13
+  },
+  {
+    "ProductName": "Organic Quinoa",
+    "ProductId": "Af79a",
+    "Description": "Nutritious organic quinoa for salads or sides",
+    "Price": 157.1,
+    "StockQuantity": 9364,
+    "Category": "Food - Grains",
+    "AverageRating": 2.11
+  },
+  {
+    "ProductName": "Silicone Cooking Utensils Set",
+    "ProductId": "Af79a",
+    "Description": "Non-stick and heat-resistant utensils for cooking.",
+    "Price": 1829.24,
+    "StockQuantity": 4267,
+    "Category": "Kitchen",
+    "AverageRating": 0.02
+  },
+  {
+    "ProductName": "Sweet Pea Hummus",
+    "ProductId": "Af79a",
+    "Description": "Creamy hummus made with sweet peas and tahini.",
+    "Price": 1226.85,
+    "StockQuantity": 1284,
+    "Category": "Food - Dips",
+    "AverageRating": 0.94
+  },
+  {
+    "ProductName": "Portable Hand Warmer",
+    "ProductId": "Af79a",
+    "Description": "Rechargeable hand warmer for cold weather comfort.",
+    "Price": 168.01,
+    "StockQuantity": 9737,
+    "Category": "Accessories",
+    "AverageRating": 3.16
+  },
+  {
+    "ProductName": "Peas (frozen)",
+    "ProductId": "Af79a",
+    "Description": "Frozen green peas, a great addition to meals.",
+    "Price": 1640.54,
+    "StockQuantity": 5647,
+    "Category": "Food - Frozen Foods",
+    "AverageRating": 1.29
+  },
+  {
+    "ProductName": "Pizza Stone",
+    "ProductId": "Af79a",
+    "Description": "Ceramic pizza stone for homemade pizzas.",
+    "Price": 940.11,
+    "StockQuantity": 4129,
+    "Category": "Kitchen",
+    "AverageRating": 1.58
+  },
+  {
+    "ProductName": "High-Speed Hand Blender",
+    "ProductId": "Af79a",
+    "Description": "Powerful hand blender for soups and smoothies.",
+    "Price": 1855.04,
+    "StockQuantity": 4093,
+    "Category": "Kitchen",
+    "AverageRating": 0.87
+  },
+  {
+    "ProductName": "Lentils",
+    "ProductId": "Af79a",
+    "Description": "High in protein, perfect for soups and stews.",
+    "Price": 1853.5,
+    "StockQuantity": 9113,
+    "Category": "Food - Grains",
+    "AverageRating": 4.43
+  },
+  {
+    "ProductName": "Spicy Thai Chili Sauce",
+    "ProductId": "Af79a",
+    "Description": "A sweet and spicy sauce for dipping or cooking.",
+    "Price": 180.27,
+    "StockQuantity": 2334,
+    "Category": "Food - Sauces",
+    "AverageRating": 2.61
+  },
+  {
+    "ProductName": "Faux Fur Throw Blanket",
+    "ProductId": "Af79a",
+    "Description": "Cozy faux fur blanket to add warmth and style to your home.",
+    "Price": 552.22,
+    "StockQuantity": 7394,
+    "Category": "Home",
+    "AverageRating": 2.04
+  },
+  {
+    "ProductName": "Robot Vacuum Cleaner",
+    "ProductId": "Af79a",
+    "Description": "Smart robotic vacuum for automatic cleaning.",
+    "Price": 1343.8,
+    "StockQuantity": 6119,
+    "Category": "Home Appliances",
+    "AverageRating": 4.54
+  },
+  {
+    "ProductName": "Crispy Chickpeas",
+    "ProductId": "Af79a",
+    "Description": "Roasted chickpeas seasoned for a crunchy snack.",
+    "Price": 1500.01,
+    "StockQuantity": 555,
+    "Category": "Food - Snacks",
+    "AverageRating": 1.37
+  },
+  {
+    "ProductName": "Pet Hair Vacuum Cleaner Attachment",
+    "ProductId": "Af79a",
+    "Description": "Specialized attachment for removing pet hair from surfaces.",
+    "Price": 1828.77,
+    "StockQuantity": 5185,
+    "Category": "Pets",
+    "AverageRating": 2.36
+  },
+  {
+    "ProductName": "Vegan Cheese",
+    "ProductId": "Af79a",
+    "Description": "Dairy-free cheese alternative for your favorite dishes.",
+    "Price": 1359.01,
+    "StockQuantity": 6170,
+    "Category": "Food - Dairy Alternatives",
+    "AverageRating": 1.93
+  },
+  {
+    "ProductName": "Children's Science Experiment Lab Kit",
+    "ProductId": "Af79a",
+    "Description": "STEM-based kit for kids featuring cool science experiments.",
+    "Price": 759.66,
+    "StockQuantity": 1612,
+    "Category": "Toys",
+    "AverageRating": 2.7
+  },
+  {
+    "ProductName": "Laptop Backpack",
+    "ProductId": "Af79a",
+    "Description": "Water-resistant laptop backpack with multiple compartments.",
+    "Price": 1893.52,
+    "StockQuantity": 331,
+    "Category": "Accessories",
+    "AverageRating": 3.72
+  },
+  {
+    "ProductName": "Silicone Stretch Lids",
+    "ProductId": "Af79a",
+    "Description": "Reusable silicone lids for covering food in bowls and storage containers.",
+    "Price": 999.2,
+    "StockQuantity": 2683,
+    "Category": "Kitchen",
+    "AverageRating": 3.14
+  },
+  {
+    "ProductName": "Wall-Mounted Spice Rack",
+    "ProductId": "Af79a",
+    "Description": "Space-saving rack to store and organize spices conveniently.",
+    "Price": 1591.17,
+    "StockQuantity": 2347,
+    "Category": "Kitchen",
+    "AverageRating": 4.7
+  },
+  {
+    "ProductName": "Classic Caesar Salad Kit",
+    "ProductId": "Af79a",
+    "Description": "Everything you need for a fresh and delicious Caesar salad.",
+    "Price": 5.76,
+    "StockQuantity": 9028,
+    "Category": "Food - Salads",
+    "AverageRating": 4.59
+  },
+  {
+    "ProductName": "Silicone Ice Cube Tray",
+    "ProductId": "Af79a",
+    "Description": "Flexible tray for easy-release ice cubes.",
+    "Price": 716.74,
+    "StockQuantity": 3207,
+    "Category": "Kitchen",
+    "AverageRating": 2.65
+  },
+  {
+    "ProductName": "Buffalo Chicken Dip",
+    "ProductId": "Af79a",
+    "Description": "Spicy and creamy dip made with shredded chicken, perfect for parties.",
+    "Price": 145.07,
+    "StockQuantity": 9736,
+    "Category": "Food - Dips",
+    "AverageRating": 1.18
+  },
+  {
+    "ProductName": "Frozen Hash Browns",
+    "ProductId": "Af79a",
+    "Description": "Shredded potatoes, perfect for breakfasts.",
+    "Price": 818.56,
+    "StockQuantity": 4502,
+    "Category": "Food - Frozen Foods",
+    "AverageRating": 4.17
+  },
+  {
+    "ProductName": "Insulated Sport Tumbler",
+    "ProductId": "Af79a",
+    "Description": "Vacuum-insulated tumbler for beverages on the go.",
+    "Price": 1805.9,
+    "StockQuantity": 880,
+    "Category": "Fitness",
+    "AverageRating": 2.13
+  },
+  {
+    "ProductName": "Smart Home Hub",
+    "ProductId": "Af79a",
+    "Description": "Connect and control smart devices from one app.",
+    "Price": 1477.47,
+    "StockQuantity": 1747,
+    "Category": "Smart Home",
+    "AverageRating": 0.95
+  },
+  {
+    "ProductName": "Vegan Mac & Cheese",
+    "ProductId": "Af79a",
+    "Description": "Creamy vegan mac and cheese made with cashew cheese.",
+    "Price": 747.2,
+    "StockQuantity": 2140,
+    "Category": "Food - Frozen",
+    "AverageRating": 2.21
+  },
+  {
+    "ProductName": "Chickpea Salad",
+    "ProductId": "Af79a",
+    "Description": "A ready-to-eat salad made with chickpeas and veggies.",
+    "Price": 1576.64,
+    "StockQuantity": 3543,
+    "Category": "Food - Prepared Foods",
+    "AverageRating": 3.42
+  },
+  {
+    "ProductName": "Coffee Making Kit",
+    "ProductId": "Af79a",
+    "Description": "Complete set to brew coffee with different methods.",
+    "Price": 63.85,
+    "StockQuantity": 3234,
+    "Category": "Kitchen",
+    "AverageRating": 4.04
+  },
+  {
+    "ProductName": "Fried Rice",
+    "ProductId": "Af79a",
+    "Description": "Pre-cooked vegetable fried rice, just heat and serve.",
+    "Price": 459.7,
+    "StockQuantity": 2644,
+    "Category": "Food - Frozen Foods",
+    "AverageRating": 2.12
+  },
+  {
+    "ProductName": "Portable Blender",
+    "ProductId": "Af79a",
+    "Description": "Battery-operated blender for smoothies on the go.",
+    "Price": 1634.84,
+    "StockQuantity": 2260,
+    "Category": "Kitchen",
+    "AverageRating": 4.04
+  },
+  {
+    "ProductName": "Chickpea Flour",
+    "ProductId": "Af79a",
+    "Description": "Gluten-free flour made from ground chickpeas, great for cooking.",
+    "Price": 287.22,
+    "StockQuantity": 1589,
+    "Category": "Food - Baking",
+    "AverageRating": 3.3
+  },
+  {
+    "ProductName": "Coconut Flakes",
+    "ProductId": "Af79a",
+    "Description": "Unsweetened coconut flakes for baking and topping.",
+    "Price": 1742.24,
+    "StockQuantity": 5197,
+    "Category": "Food - Baking",
+    "AverageRating": 0.56
+  },
+  {
+    "ProductName": "Spicy Avocado Salsa",
+    "ProductId": "Af79a",
+    "Description": "A zesty salsa made from ripe avocados, tomatoes, onions, and jalapeños, great for dipping or topping.",
+    "Price": 207.22,
+    "StockQuantity": 8675,
+    "Category": "Food - Condiments",
+    "AverageRating": 2.24
+  },
+  {
+    "ProductName": "Rechargeable Laptop Battery Pack",
+    "ProductId": "Af79a",
+    "Description": "Portable battery pack to charge laptops while on the move.",
+    "Price": 536.89,
+    "StockQuantity": 6809,
+    "Category": "Electronics",
+    "AverageRating": 3.17
+  },
+  {
+    "ProductName": "Eco-Friendly Yoga Mat",
+    "ProductId": "Af79a",
+    "Description": "Made from biodegradable materials for eco-conscious yogis.",
+    "Price": 20.54,
+    "StockQuantity": 6189,
+    "Category": "Fitness",
+    "AverageRating": 1.76
+  },
+  {
+    "ProductName": "Garlic Herb Seasoning",
+    "ProductId": "Af79a",
+    "Description": "A blend of herbs and garlic for seasoning meats and vegetables.",
+    "Price": 1008.68,
+    "StockQuantity": 7128,
+    "Category": "Food - Spices",
+    "AverageRating": 1.33
+  },
+  {
+    "ProductName": "Almond Butter",
+    "ProductId": "Af79a",
+    "Description": "Creamy almond butter made from roasted almonds.",
+    "Price": 391.93,
+    "StockQuantity": 9117,
+    "Category": "Food - Condiments",
+    "AverageRating": 4.54
+  },
+  {
+    "ProductName": "Organic Apples",
+    "ProductId": "Af79a",
+    "Description": "Crisp and delicious organic apples.",
+    "Price": 1294.6,
+    "StockQuantity": 8384,
+    "Category": "Food - Produce",
+    "AverageRating": 0.82
+  },
+  {
+    "ProductName": "Travel Yoga Mat",
+    "ProductId": "Af79a",
+    "Description": "Lightweight yoga mat for practicing on the go.",
+    "Price": 1694.79,
+    "StockQuantity": 5542,
+    "Category": "Fitness",
+    "AverageRating": 1.31
+  },
+  {
+    "ProductName": "Classic Pesto Sauce",
+    "ProductId": "Af79a",
+    "Description": "Fresh basil pesto, perfect for pasta or as a sandwich spread.",
+    "Price": 1427.08,
+    "StockQuantity": 9995,
+    "Category": "Food - Sauces",
+    "AverageRating": 0.03
+  },
+  {
+    "ProductName": "Organic Black Beans",
+    "ProductId": "Af79a",
+    "Description": "Versatile canned black beans, ready to add to any dish.",
+    "Price": 1852.06,
+    "StockQuantity": 17,
+    "Category": "Food - Canned Goods",
+    "AverageRating": 0.57
+  },
+  {
+    "ProductName": "Fitness Resistance Bands Set",
+    "ProductId": "Af79a",
+    "Description": "Variety of bands suitable for all fitness levels.",
+    "Price": 588.9,
+    "StockQuantity": 983,
+    "Category": "Fitness",
+    "AverageRating": 4.3
+  },
+  {
+    "ProductName": "Coconut Milk Yogurt",
+    "ProductId": "Af79a",
+    "Description": "Creamy yogurt made with coconut milk",
+    "Price": 637.65,
+    "StockQuantity": 5328,
+    "Category": "Food - Dairy Alternatives",
+    "AverageRating": 1.15
+  },
+  {
+    "ProductName": "Honey Mustard Pretzel Bites",
+    "ProductId": "Af79a",
+    "Description": "Delicious pretzel bites with a sweet honey mustard flavor, perfect for dipping.",
+    "Price": 603.96,
+    "StockQuantity": 3221,
+    "Category": "Food - Snacks",
+    "AverageRating": 3.41
+  },
+  {
+    "ProductName": "Feta Cheese Crumbles",
+    "ProductId": "Af79a",
+    "Description": "Crumbled feta cheese, perfect for salads and Mediterranean dishes.",
+    "Price": 736.33,
+    "StockQuantity": 6380,
+    "Category": "Food - Dairy",
+    "AverageRating": 1.35
+  },
+  {
+    "ProductName": "Coffee Grinder",
+    "ProductId": "Af79a",
+    "Description": "Burr coffee grinder for fresh ground coffee.",
+    "Price": 1980.75,
+    "StockQuantity": 8700,
+    "Category": "Kitchen",
+    "AverageRating": 3.39
+  },
+  {
+    "ProductName": "Kids' Outdoor Explorer Kit",
+    "ProductId": "Af79a",
+    "Description": "Fun kit for aspiring explorers with binoculars and a compass.",
+    "Price": 769.87,
+    "StockQuantity": 6567,
+    "Category": "Toys",
+    "AverageRating": 0.44
+  },
+  {
+    "ProductName": "Set of Silicone Baking Molds",
+    "ProductId": "Af79a",
+    "Description": "Flexible molds perfect for baking cakes and pastries.",
+    "Price": 1316.52,
+    "StockQuantity": 8603,
+    "Category": "Kitchen",
+    "AverageRating": 1.11
+  },
+  {
+    "ProductName": "Electric Griddle",
+    "ProductId": "Af79a",
+    "Description": "Large electric griddle for family meals.",
+    "Price": 59.46,
+    "StockQuantity": 3129,
+    "Category": "Kitchen",
+    "AverageRating": 1.05
+  },
+  {
+    "ProductName": "Sesame Garlic Stir-Fry Sauce",
+    "ProductId": "Af79a",
+    "Description": "A flavorful sauce for stir-frying vegetables and meats.",
+    "Price": 1371.96,
+    "StockQuantity": 4299,
+    "Category": "Food - Sauces",
+    "AverageRating": 2.17
+  },
+  {
+    "ProductName": "Rolling Cooler",
+    "ProductId": "Af79a",
+    "Description": "Wheeled cooler for transporting drinks and snacks.",
+    "Price": 29.7,
+    "StockQuantity": 7183,
+    "Category": "Outdoor",
+    "AverageRating": 4.09
+  },
+  {
+    "ProductName": "Tabletop Fire Pit",
+    "ProductId": "Af79a",
+    "Description": "Compact and stylish indoor/outdoor fire pit for ambiance.",
+    "Price": 1582.67,
+    "StockQuantity": 5688,
+    "Category": "Outdoor",
+    "AverageRating": 4.19
+  },
+  {
+    "ProductName": "Cinnamon Ice Cream",
+    "ProductId": "Af79a",
+    "Description": "Creamy ice cream with a warm cinnamon flavor, perfect for dessert.",
+    "Price": 1646.94,
+    "StockQuantity": 1912,
+    "Category": "Food - Frozen Desserts",
+    "AverageRating": 4.43
+  },
+  {
+    "ProductName": "Smart Doorbell",
+    "ProductId": "Af79a",
+    "Description": "Wi-Fi enabled doorbell with HD camera and two-way audio.",
+    "Price": 1810.87,
+    "StockQuantity": 7312,
+    "Category": "Smart Home",
+    "AverageRating": 4.33
+  },
+  {
+    "ProductName": "Bike Repair Tool Kit",
+    "ProductId": "Af79a",
+    "Description": "Essential tools for bike maintenance and repair.",
+    "Price": 1370.33,
+    "StockQuantity": 3648,
+    "Category": "Outdoor",
+    "AverageRating": 0.63
+  },
+  {
+    "ProductName": "LED Flashlight with Rechargeable Batteries",
+    "ProductId": "Af79a",
+    "Description": "Bright flashlight with rechargeable batteries included.",
+    "Price": 857.12,
+    "StockQuantity": 1384,
+    "Category": "Outdoor",
+    "AverageRating": 4.33
+  },
+  {
+    "ProductName": "Almond Quinoa Salad",
+    "ProductId": "Af79a",
+    "Description": "Healthy salad made with quinoa, almonds, and mixed greens, perfect for a light meal.",
+    "Price": 1430.01,
+    "StockQuantity": 1801,
+    "Category": "Food - Salads",
+    "AverageRating": 2.07
+  },
+  {
+    "ProductName": "Memory Foam Pillow",
+    "ProductId": "Af79a",
+    "Description": "Ergonomic memory foam pillow for better sleep.",
+    "Price": 125.45,
+    "StockQuantity": 5730,
+    "Category": "Home",
+    "AverageRating": 0.89
+  },
+  {
+    "ProductName": "Wall-Mounted Organizer",
+    "ProductId": "Af79a",
+    "Description": "Practical organizer for keeping your home tidy and clutter-free.",
+    "Price": 692.57,
+    "StockQuantity": 9657,
+    "Category": "Home",
+    "AverageRating": 4.24
+  },
+  {
+    "ProductName": "High-Speed Blender",
+    "ProductId": "Af79a",
+    "Description": "Powerful blender for smoothies and soups.",
+    "Price": 396.48,
+    "StockQuantity": 6882,
+    "Category": "Kitchen",
+    "AverageRating": 3.41
+  },
+  {
+    "ProductName": "Honey Ginger Tea",
+    "ProductId": "Af79a",
+    "Description": "Soothing tea with honey and ginger, great for relaxation.",
+    "Price": 582.59,
+    "StockQuantity": 9269,
+    "Category": "Food - Beverages",
+    "AverageRating": 0.98
+  },
+  {
+    "ProductName": "Apple Sauce",
+    "ProductId": "Af79a",
+    "Description": "Unsweetened apple sauce, great for snacks or baking.",
+    "Price": 139.87,
+    "StockQuantity": 3436,
+    "Category": "Food - Canned Goods",
+    "AverageRating": 0.89
+  },
+  {
+    "ProductName": "Kombucha Drink",
+    "ProductId": "Af79a",
+    "Description": "Refreshing and tangy fermented tea, available in various flavors.",
+    "Price": 1099.89,
+    "StockQuantity": 6088,
+    "Category": "Food - Beverages",
+    "AverageRating": 4.68
+  },
+  {
+    "ProductName": "Rustic Wooden Picture Frame",
+    "ProductId": "Af79a",
+    "Description": "Charming frame to showcase your favorite photos.",
+    "Price": 1850.26,
+    "StockQuantity": 4056,
+    "Category": "Home",
+    "AverageRating": 1.82
+  },
+  {
+    "ProductName": "Raspberry Vanilla Greek Yogurt",
+    "ProductId": "Af79a",
+    "Description": "Creamy Greek yogurt infused with raspberry and vanilla flavors.",
+    "Price": 193.65,
+    "StockQuantity": 9059,
+    "Category": "Food - Dairy",
+    "AverageRating": 2.53
+  },
+  {
+    "ProductName": "Rechargeable Battery Organizer",
+    "ProductId": "Af79a",
+    "Description": "Tidy storage solution for rechargeable batteries.",
+    "Price": 1037.88,
+    "StockQuantity": 2826,
+    "Category": "Home",
+    "AverageRating": 0.56
+  },
+  {
+    "ProductName": "Spiralizer",
+    "ProductId": "Af79a",
+    "Description": "Vegetable spiralizer for healthy meals.",
+    "Price": 779.68,
+    "StockQuantity": 5392,
+    "Category": "Kitchen",
+    "AverageRating": 0.32
+  },
+  {
+    "ProductName": "Lightweight Rain Jacket",
+    "ProductId": "Af79a",
+    "Description": "Water-resistant jacket ideal for outdoor activities, featuring a packable design.",
+    "Price": 410.53,
+    "StockQuantity": 2725,
+    "Category": "Clothing - Outerwear",
+    "AverageRating": 4.55
+  },
+  {
+    "ProductName": "Zesty Garlic Hummus",
+    "ProductId": "Af79a",
+    "Description": "Creamy chickpea dip infused with zesty garlic flavor.",
+    "Price": 728.85,
+    "StockQuantity": 8921,
+    "Category": "Food - Snacks",
+    "AverageRating": 4.77
+  },
+  {
+    "ProductName": "Tahini",
+    "ProductId": "Af79a",
+    "Description": "Creamy tahini made from ground sesame seeds.",
+    "Price": 1085.99,
+    "StockQuantity": 4549,
+    "Category": "Food - Condiments",
+    "AverageRating": 2.43
+  },
+  {
+    "ProductName": "Vanilla Almond Granola",
+    "ProductId": "Af79a",
+    "Description": "Crunchy granola with almonds and a hint of vanilla, perfect for breakfast.",
+    "Price": 555.35,
+    "StockQuantity": 4937,
+    "Category": "Food - Breakfast",
+    "AverageRating": 0.08
+  }
+]

@@ -11,7 +11,9 @@ namespace Shopping_System
     {
         static void Main(string[] args)
         {
-        //all objects of classes will be created here
+
+            Continous_Running_System cont_running = new Continous_Running_System();
+            cont_running.continous_system();
         }
     }
 }

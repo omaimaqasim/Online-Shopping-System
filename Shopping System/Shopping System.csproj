@@ -74,7 +74,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\Cart System.cs" />
+    <Compile Include="Components\Cart.cs" />
     <Compile Include="Components\Checkout.cs" />
     <Compile Include="Components\Continous Running System.cs" />
     <Compile Include="Components\Data Handling.cs" />
@@ -87,7 +87,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Data\products.json" />
+    <Content Include="Data\products.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\cart.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

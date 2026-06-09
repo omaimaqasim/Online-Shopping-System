@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
 using System.IO;
+using System.Security.Cryptography;
 namespace Project.Components
 {
     internal class ProductManager
     {
-        private static List<Product> products = new List<Product>();
-        private static string filePath = "D:\\Uni Assignments Notes Books\\2sem\\OOP LAB\\Project\\Project\\Data\\products.json";
+        public static List<Product> products = new List<Product>();
+        private static string filePath = "C:\\Users\\AAC\\source\\repos\\Online-Shopping-System\\Shopping System\\Data\\products.json";
 
         public static void LoadProductsFromJson()
         {
@@ -32,10 +33,7 @@ namespace Project.Components
 
                 if (loadedProducts != null)
                 {
-                    foreach (Product p in loadedProducts)
-                    {
-                        AddProduct(p);
-                    }
+                    products = loadedProducts;
                 }
             }
             catch (Exception ex)
@@ -50,12 +48,13 @@ namespace Project.Components
             {
                 var options = new JsonSerializerOptions
                 {
+                    PropertyNameCaseInsensitive = true,
                     WriteIndented = true,
-                    IncludeFields = true
                 };
 
                 string jsonString = JsonSerializer.Serialize(products, options);
                 File.WriteAllText(filePath, jsonString);
+
             }
             catch (Exception ex)
             {
@@ -65,8 +64,10 @@ namespace Project.Components
 
         public static void AddProduct(Product p)
         {
+            ProductManager.LoadProductsFromJson();
             products.Add(p);
             SaveProductsToJson();
+            ProductManager.DisplayCategoryProducts();
         }
 
         public static void AddProduct()
@@ -139,8 +140,8 @@ namespace Project.Components
 
         public static void RemoveProductById(string id)
         {
+            LoadProductsFromJson();
             bool found = false;
-
             foreach (Product p in products)
             {
                 if (p.ProductId.StartsWith(id, StringComparison.OrdinalIgnoreCase))
@@ -149,6 +150,7 @@ namespace Project.Components
                     SaveProductsToJson();
                     found = true;
                     Console.WriteLine("Product Successfully removed");
+                    DisplayCategoryProducts();
                     break;
                 }
             }
@@ -157,6 +159,20 @@ namespace Project.Components
             {
                 Console.WriteLine($"Product with ID '{id}' not found!");
             }
+        }
+
+        public static Product GetProductById(string id)
+        {
+            LoadProductsFromJson();
+            foreach (Product p in products)
+            {
+                if (p.ProductId.StartsWith(id, StringComparison.OrdinalIgnoreCase))
+                {
+                    return p;
+                }
+            }
+
+            return null;
         }
 
         public static void Message(string message)
@@ -169,6 +185,7 @@ namespace Project.Components
 
         public static void DisplayCategoryProducts()
         {
+            LoadProductsFromJson();
             Console.WriteLine("========================================================================================================================");
             Message("\t\t\t\t\t\t\tPRODUCTS \n");
             Message("\t\t\t\t\t(Enter the product's index to add to cart.) ");

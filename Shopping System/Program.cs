@@ -12,10 +12,12 @@ namespace Shopping_System
     {
         static void Main(string[] args)
         {
-            // ALWAYS LOAD THESE TO METHODS BEFORE CALLING ADDTOPRODUCTS OR REMOVEFROMPRODUCTS
-            // otherwise all the fake data store in products.json will be overwritten
-            ProductManager.LoadProductsFromJson();
-            ProductManager.DisplayCategoryProducts();
+
+            //ProductManager.AddProduct();
+            //Cart.ShoppingUI();
+            //Cart.DisplayCart();
+            //Cart.UpdateQuantity("g9h1j", 1);
+            //Cart.RemoveFromCart("g9h1j");
         }
     }
 }

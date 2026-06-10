@@ -1,0 +1,461 @@
+[
+  {
+    "ProductName": "Dark Roast Coffee Beans",
+    "ProductId": "a1b2c",
+    "Description": "No description provided",
+    "Price": 14.99,
+    "StockQuantity": 35,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Stainless Steel Water Bottle",
+    "ProductId": "d3e4f",
+    "Description": "No description provided",
+    "Price": 24.949999999999999,
+    "StockQuantity": 15,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Organic Whole Milk",
+    "ProductId": "g5h6j",
+    "Description": "No description provided",
+    "Price": 4.29,
+    "StockQuantity": 22,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Non-Stick Frying Pan",
+    "ProductId": "k7m8n",
+    "Description": "No description provided",
+    "Price": 34.990000000000002,
+    "StockQuantity": 12,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "AA Alkaline Batteries (12-Pack)",
+    "ProductId": "p9q1r",
+    "Description": "No description provided",
+    "Price": 10.49,
+    "StockQuantity": 60,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Whole Wheat Bread",
+    "ProductId": "s2t3u",
+    "Description": "No description provided",
+    "Price": 2.9900000000000002,
+    "StockQuantity": 18,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Ceramic Coffee Mug",
+    "ProductId": "v4w5x",
+    "Description": "No description provided",
+    "Price": 8.5,
+    "StockQuantity": 25,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "LED Desk Lamp",
+    "ProductId": "y6z7a",
+    "Description": "No description provided",
+    "Price": 18.989999999999998,
+    "StockQuantity": 10,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Extra Virgin Olive Oil",
+    "ProductId": "b8c9d",
+    "Description": "No description provided",
+    "Price": 12.949999999999999,
+    "StockQuantity": 14,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Silicone Baking Mat",
+    "ProductId": "e1f2g",
+    "Description": "No description provided",
+    "Price": 11.25,
+    "StockQuantity": 30,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Microfiber Cleaning Cloths",
+    "ProductId": "h3j4k",
+    "Description": "No description provided",
+    "Price": 7.9900000000000002,
+    "StockQuantity": 45,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Crunchy Peanut Butter",
+    "ProductId": "m5n6p",
+    "Description": "No description provided",
+    "Price": 3.8900000000000001,
+    "StockQuantity": 28,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Digital Kitchen Scale",
+    "ProductId": "q7r8s",
+    "Description": "No description provided",
+    "Price": 15.99,
+    "StockQuantity": 11,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Ballpoint Pens (10-Pack)",
+    "ProductId": "t9u1v",
+    "Description": "No description provided",
+    "Price": 2.4900000000000002,
+    "StockQuantity": 75,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Basmati Rice (5lbs)",
+    "ProductId": "w2x3y",
+    "Description": "No description provided",
+    "Price": 9.4900000000000002,
+    "StockQuantity": 40,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Chef\u0027s Knife 8-Inch",
+    "ProductId": "z4a5b",
+    "Description": "No description provided",
+    "Price": 45,
+    "StockQuantity": 6,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Extension Cord 10ft",
+    "ProductId": "c6d7e",
+    "Description": "No description provided",
+    "Price": 6.9900000000000002,
+    "StockQuantity": 19,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Organic Honey",
+    "ProductId": "f8g9h",
+    "Description": "No description provided",
+    "Price": 7.75,
+    "StockQuantity": 16,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Glass Food Storage Containers",
+    "ProductId": "j1k2m",
+    "Description": "No description provided",
+    "Price": 22.989999999999998,
+    "StockQuantity": 13,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Wall Clock",
+    "ProductId": "n3p4q",
+    "Description": "No description provided",
+    "Price": 14.5,
+    "StockQuantity": 8,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Rolled Oats",
+    "ProductId": "r5s6t",
+    "Description": "No description provided",
+    "Price": 3.25,
+    "StockQuantity": 52,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Cutting Board Set",
+    "ProductId": "u7v8w",
+    "Description": "No description provided",
+    "Price": 19.949999999999999,
+    "StockQuantity": 17,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Notebook College Ruled",
+    "ProductId": "x9y1z",
+    "Description": "No description provided",
+    "Price": 1.8899999999999999,
+    "StockQuantity": 110,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Canned Black Beans",
+    "ProductId": "a2b3c",
+    "Description": "No description provided",
+    "Price": 1.1499999999999999,
+    "StockQuantity": 85,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Measuring Cups and Spoons",
+    "ProductId": "d4e5f",
+    "Description": "No description provided",
+    "Price": 9.9900000000000002,
+    "StockQuantity": 24,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Scissors All-Purpose",
+    "ProductId": "g6h7j",
+    "Description": "No description provided",
+    "Price": 4.75,
+    "StockQuantity": 33,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Sea Salt Grinder",
+    "ProductId": "k8m9n",
+    "Description": "No description provided",
+    "Price": 5.4900000000000002,
+    "StockQuantity": 29,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Dish Drying Rack",
+    "ProductId": "p1q2r",
+    "Description": "No description provided",
+    "Price": 26.5,
+    "StockQuantity": 9,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Trash Bags 13-Gallon",
+    "ProductId": "s3t4u",
+    "Description": "No description provided",
+    "Price": 13.25,
+    "StockQuantity": 42,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Maple Syrup",
+    "ProductId": "v5w6x",
+    "Description": "No description provided",
+    "Price": 8.9900000000000002,
+    "StockQuantity": 15,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Ice Cube Trays (2-Pack)",
+    "ProductId": "y7z8a",
+    "Description": "No description provided",
+    "Price": 5.9900000000000002,
+    "StockQuantity": 38,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Desk Organizer",
+    "ProductId": "b9c1d",
+    "Description": "No description provided",
+    "Price": 11.99,
+    "StockQuantity": 14,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Spaghetti Pasta",
+    "ProductId": "e2f3g",
+    "Description": "No description provided",
+    "Price": 1.49,
+    "StockQuantity": 90,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Hand Blender",
+    "ProductId": "h4j5k",
+    "Description": "No description provided",
+    "Price": 29.989999999999998,
+    "StockQuantity": 7,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Sticky Notes Cube",
+    "ProductId": "m6n7p",
+    "Description": "No description provided",
+    "Price": 3.9900000000000002,
+    "StockQuantity": 65,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Canned Tuna",
+    "ProductId": "q8r9s",
+    "Description": "No description provided",
+    "Price": 2.1000000000000001,
+    "StockQuantity": 72,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Vegetable Peeler",
+    "ProductId": "t1u2v",
+    "Description": "No description provided",
+    "Price": 6.5,
+    "StockQuantity": 21,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "AAA Batteries (8-Pack)",
+    "ProductId": "w3x4y",
+    "Description": "No description provided",
+    "Price": 8.4900000000000002,
+    "StockQuantity": 55,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Green Tea Bags (50-Count)",
+    "ProductId": "z5a6b",
+    "Description": "No description provided",
+    "Price": 5.9900000000000002,
+    "StockQuantity": 33,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Oven Mitts Set",
+    "ProductId": "c7d8e",
+    "Description": "No description provided",
+    "Price": 12.99,
+    "StockQuantity": 16,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Toaster 2-Slice",
+    "ProductId": "f9g1h",
+    "Description": "No description provided",
+    "Price": 21.949999999999999,
+    "StockQuantity": 8,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Almond Milk Unsweetened",
+    "ProductId": "j3k4m",
+    "Description": "No description provided",
+    "Price": 3.4900000000000002,
+    "StockQuantity": 26,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Kitchen Shears",
+    "ProductId": "n5p6q",
+    "Description": "No description provided",
+    "Price": 10.99,
+    "StockQuantity": 14,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Packing Tape Roll",
+    "ProductId": "r7s8t",
+    "Description": "No description provided",
+    "Price": 3.25,
+    "StockQuantity": 48,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Chia Seeds",
+    "ProductId": "u9v1w",
+    "Description": "No description provided",
+    "Price": 6.7999999999999998,
+    "StockQuantity": 18,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Whisk Stainless Steel",
+    "ProductId": "x3y4z",
+    "Description": "No description provided",
+    "Price": 5.9900000000000002,
+    "StockQuantity": 22,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Stapler with Staples",
+    "ProductId": "a5b6c",
+    "Description": "No description provided",
+    "Price": 7.5,
+    "StockQuantity": 20,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Tomato Sauce Canned",
+    "ProductId": "d7e8f",
+    "Description": "No description provided",
+    "Price": 1.29,
+    "StockQuantity": 68,
+    "Category": "Food",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Garlic Press",
+    "ProductId": "g9h1j",
+    "Description": "No description provided",
+    "Price": 14.25,
+    "StockQuantity": 9,
+    "Category": "Kitchen",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Storage Bin 20-Quart",
+    "ProductId": "k3m4n",
+    "Description": "No description provided",
+    "Price": 9.9900000000000002,
+    "StockQuantity": 15,
+    "Category": "General",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Eggs",
+    "ProductId": "f2308004-aa3c-4ccf-a6da-3afcc81e6a2f",
+    "Description": "Fresh Eggs",
+    "Price": 1,
+    "StockQuantity": 8,
+    "Category": "Dairy",
+    "AverageRating": 0
+  }
+]

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Components;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,12 @@ namespace Shopping_System
     {
         static void Main(string[] args)
         {
+
+            //ProductManager.AddProduct();
+            //Cart.ShoppingUI();
+            //Cart.DisplayCart();
+            //Cart.UpdateQuantity("g9h1j", 1);
+            //Cart.RemoveFromCart("g9h1j");
 
             Continous_Running_System cont_running = new Continous_Running_System();
             cont_running.continous_system();

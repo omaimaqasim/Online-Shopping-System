@@ -247,7 +247,7 @@
     "ProductId": "p1q2r",
     "Description": "No description provided",
     "Price": 26.5,
-    "StockQuantity": 9,
+    "StockQuantity": 8,
     "Category": "Kitchen",
     "AverageRating": 0
   },
@@ -382,7 +382,7 @@
     "ProductId": "n5p6q",
     "Description": "No description provided",
     "Price": 10.99,
-    "StockQuantity": 14,
+    "StockQuantity": 12,
     "Category": "Kitchen",
     "AverageRating": 0
   },
@@ -456,6 +456,15 @@
     "Price": 1,
     "StockQuantity": 8,
     "Category": "Dairy",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Perfume",
+    "ProductId": "c867192f-9494-4fce-8b99-f53123b0cafa",
+    "Description": "Balanciaga",
+    "Price": 50,
+    "StockQuantity": 3,
+    "Category": "Whatever",
     "AverageRating": 0
   }
 ]

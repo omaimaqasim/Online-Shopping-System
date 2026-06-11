@@ -1,15 +1,1 @@
-[
-  {
-    "product": {
-      "ProductName": "Eggs",
-      "ProductId": "f2308004-aa3c-4ccf-a6da-3afcc81e6a2f",
-      "Description": "Fresh Eggs",
-      "Price": 1,
-      "StockQuantity": 20,
-      "Category": "Dairy",
-      "AverageRating": 0
-    },
-    "quantity": 12,
-    "TotalPrice": 12
-  }
-]
+[]

@@ -77,6 +77,7 @@
     <Compile Include="Components\Cart.cs" />
     <Compile Include="Components\Checkout.cs" />
     <Compile Include="Components\Menu System.cs" />
+    <Compile Include="Components\Payment.cs" />
     <Compile Include="Components\ProductManager.cs" />
     <Compile Include="Components\product.cs" />
     <Compile Include="Program.cs" />
@@ -91,6 +92,7 @@
     <Content Include="Data\cart.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Data\payments.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

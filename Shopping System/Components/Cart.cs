@@ -134,6 +134,8 @@ namespace Shopping_System
                 itemId = itemId.Trim().ToLower();
                 if (itemId == "checkout")
                 {
+                    DisplayCart();
+                    Checkout.CalculateBill();
                     keepShopping = false;
                     break;
                 }

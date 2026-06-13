@@ -20,6 +20,9 @@ namespace Shopping_System
             //Cart.UpdateQuantity("g9h1j", 1);
             //Cart.RemoveFromCart("g9h1j");
 
+
+            Continous_Running_System cont_running = new Continous_Running_System();
+            cont_running.continous_system();
             //Product p1 = new Product(productName:"keychain", price: 10.0, stockQuantity: 100, category: "Accessories");
             //p1.DisplayProducts(1);
 

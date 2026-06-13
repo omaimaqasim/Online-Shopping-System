@@ -14,6 +14,10 @@ namespace Shopping_System
         static void Main(string[] args)
         {
 
+
+            //User_System.Customer customer = new User_System.Customer();
+            //customer.PromptForDetails();
+
             //ProductManager.AddProduct();
             //Cart.ShoppingUI();
             //Cart.DisplayCart();
@@ -21,8 +25,19 @@ namespace Shopping_System
             //Cart.RemoveFromCart("g9h1j");
 
 
+            //Continous_Running_System cont_running = new Continous_Running_System();
+            //cont_running.continous_system();
+
             Menu_System.MainMenu();
 
+
+
+            //Product p1 = new Product(productName:"keychain", price: 10.0, stockQuantity: 100, category: "Accessories");
+            //p1.DisplayProducts(1);
+
+
+            //Continous_Running_System cont_running = new Continous_Running_System();
+            //cont_running.continous_system();
 
 
         }

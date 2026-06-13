@@ -18,8 +18,7 @@ namespace Project.Components
         
         public Product(string productName, double price, int stockQuantity, string category)
         {
-            this.productId = Guid.NewGuid().ToString();
-            this.productName = productName;
+            this.productId = Guid.NewGuid().ToString();//Guid.NewGuid() Generates a brand-new, completely unique 128-bit chunk of data inside the computer's memory
             this.description = "No description provided";
             this.price = price;
             this.stockQuantity = stockQuantity;
@@ -99,10 +98,12 @@ namespace Project.Components
             get { return averageRating; }
         }
 
-        public void DisplayProducts(int index)
+        public void DisplayProducts(int index)//not good to manually write product number will correct this soon
         {
-            string shortId = productId.Substring(0, 5);
 
+            //if productId length is less then five then ? for safety use ternary operator to avoid error
+            string shortId = productId.Length >= 5 ? productId.Substring(0, 5) : productId;
+                
             Console.WriteLine(
                 $"{index,-8} " +
                 $"{shortId,-10} " +

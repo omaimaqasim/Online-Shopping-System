@@ -9,7 +9,7 @@ namespace Project.Components
     internal class ProductManager
     {
         public static List<Product> products = new List<Product>();
-        private static string filePath = "C:\\Users\\AAC\\source\\repos\\Online-Shopping-System\\Shopping System\\Data\\products.json";
+        private static string filePath = Path.Combine(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.FullName, "Data", "products.json");//this will give products.json from the current project directory, and it will work regardless of where the project is located on the user's computer
 
         public static void LoadProductsFromJson()
         {

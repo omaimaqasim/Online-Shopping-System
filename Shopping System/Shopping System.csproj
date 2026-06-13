@@ -76,11 +76,9 @@
   <ItemGroup>
     <Compile Include="Components\Cart.cs" />
     <Compile Include="Components\Checkout.cs" />
-    <Compile Include="Components\Continous Running System.cs" />
-    <Compile Include="Components\Data Handling.cs" />
     <Compile Include="Components\Menu System.cs" />
     <Compile Include="Components\ProductManager.cs" />
-    <Compile Include="Components\Products.cs" />
+    <Compile Include="Components\product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Components\User System.cs" />

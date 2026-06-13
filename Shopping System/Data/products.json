@@ -274,7 +274,7 @@
     "ProductId": "y7z8a",
     "Description": "No description provided",
     "Price": 5.9900000000000002,
-    "StockQuantity": 38,
+    "StockQuantity": 37,
     "Category": "Kitchen",
     "AverageRating": 0
   },
@@ -292,7 +292,7 @@
     "ProductId": "e2f3g",
     "Description": "No description provided",
     "Price": 1.49,
-    "StockQuantity": 90,
+    "StockQuantity": 88,
     "Category": "Food",
     "AverageRating": 0
   },
@@ -310,7 +310,7 @@
     "ProductId": "m6n7p",
     "Description": "No description provided",
     "Price": 3.9900000000000002,
-    "StockQuantity": 65,
+    "StockQuantity": 63,
     "Category": "General",
     "AverageRating": 0
   },
@@ -337,7 +337,7 @@
     "ProductId": "w3x4y",
     "Description": "No description provided",
     "Price": 8.4900000000000002,
-    "StockQuantity": 55,
+    "StockQuantity": 53,
     "Category": "General",
     "AverageRating": 0
   },
@@ -373,7 +373,7 @@
     "ProductId": "j3k4m",
     "Description": "No description provided",
     "Price": 3.4900000000000002,
-    "StockQuantity": 26,
+    "StockQuantity": 23,
     "Category": "Food",
     "AverageRating": 0
   },
@@ -382,7 +382,7 @@
     "ProductId": "n5p6q",
     "Description": "No description provided",
     "Price": 10.99,
-    "StockQuantity": 12,
+    "StockQuantity": 11,
     "Category": "Kitchen",
     "AverageRating": 0
   },
@@ -391,7 +391,7 @@
     "ProductId": "r7s8t",
     "Description": "No description provided",
     "Price": 3.25,
-    "StockQuantity": 48,
+    "StockQuantity": 47,
     "Category": "General",
     "AverageRating": 0
   },
@@ -454,7 +454,7 @@
     "ProductId": "f2308004-aa3c-4ccf-a6da-3afcc81e6a2f",
     "Description": "Fresh Eggs",
     "Price": 1,
-    "StockQuantity": 8,
+    "StockQuantity": 6,
     "Category": "Dairy",
     "AverageRating": 0
   },
@@ -465,6 +465,15 @@
     "Price": 50,
     "StockQuantity": 1,
     "Category": "Whatever",
+    "AverageRating": 0
+  },
+  {
+    "ProductName": "Watch",
+    "ProductId": "a15f8c07-663f-452f-b618-6ca646de15d2",
+    "Description": "rolex ",
+    "Price": 200000,
+    "StockQuantity": 0,
+    "Category": "Premium Watch",
     "AverageRating": 0
   }
 ]

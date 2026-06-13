@@ -15,8 +15,8 @@ namespace Shopping_System
         {
 
 
-            //User_System.Customer customer = new User_System.Customer();
-            //customer.PromptForDetails();
+            User_System.Customer customer = new User_System.Customer();
+            customer.PromptForDetails();
 
             //ProductManager.AddProduct();
             //Cart.ShoppingUI();
@@ -27,8 +27,6 @@ namespace Shopping_System
 
             //Continous_Running_System cont_running = new Continous_Running_System();
             //cont_running.continous_system();
-
-            Menu_System.MainMenu();
 
 
 

@@ -194,9 +194,14 @@ namespace Project.Components
             Console.WriteLine($"{"Index",-8} {"ID",-10} {"Product Name",-35} {"Category",-25} {"Price($)",-15} {"Stock",-12} {"Rating",-6}");
             Console.WriteLine("========================================================================================================================");
 
+            int displayIndex = 1; 
             for (int i = 0; i < products.Count; i++)
             {
-                products[i].DisplayProducts(i + 1);
+                if (products[i].StockQuantity > 0) // checks if stockquantity is 0 then dont show that product
+                {
+                    products[i].DisplayProducts(displayIndex);
+                    displayIndex++;
+                }
             }
 
             Console.WriteLine("========================================================================================================================\n");

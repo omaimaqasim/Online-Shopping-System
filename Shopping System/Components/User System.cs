@@ -71,7 +71,7 @@ namespace Shopping_System
                     return;
                 }
 
-                // call display menu
+                Menu_System.MainMenu();
 
             }
         }
@@ -104,7 +104,7 @@ namespace Shopping_System
                     return;
                 }
 
-                // call display menu
+                Menu_System.MainMenu();
 
             }
         }

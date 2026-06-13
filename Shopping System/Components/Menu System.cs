@@ -10,7 +10,7 @@ namespace Shopping_System
 {
     internal class Menu_System
     {
-        static void AdminMenu()
+        public static void AdminMenu() // public so can be accessed in checkout
         {
             Console.WriteLine("=================================================");
             Console.WriteLine("                   ADMIN PANEL");
@@ -23,7 +23,7 @@ namespace Shopping_System
             Console.Write("Enter Choice: ");
         }
 
-        static void CustomerMenu()
+        public static void CustomerMenu() // public so can be accessed in checkout
         {
             Console.WriteLine("=================================================");
             Console.WriteLine("                 CUSTOMER PANEL");

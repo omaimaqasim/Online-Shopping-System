@@ -25,7 +25,7 @@ namespace Shopping_System
     internal class Cart
     {
         public static List<CartItem> Items { get; set; } = new List<CartItem>();
-        private static string filePath = "C:\\Users\\AAC\\source\\repos\\Online-Shopping-System\\Shopping System\\Data\\cart.json";
+        private static string filePath = Path.Combine(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.FullName, "Data", "cart.json");//this will give cart.json from the current project directory, 
 
 
         public static void LoadCartFromJson()
@@ -129,10 +129,10 @@ namespace Shopping_System
             while (keepShopping)
             {
                 Console.WriteLine("\n------------------------------------------------");
-                Console.Write("Enter the Item ID you want to buy (or type 'checkout' to finish): ");
+                Console.Write("Enter the Item ID you want to buy (or type 'done shopping' to finish): ");
                 string itemId = Console.ReadLine();
                 itemId = itemId.Trim().ToLower();
-                if (itemId == "checkout")
+                if (itemId == "done shopping")
                 {
                     DisplayCart();
                     Checkout.CalculateBill();

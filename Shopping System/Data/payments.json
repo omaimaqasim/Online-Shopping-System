@@ -5,3 +5,6 @@
 {"PaymentId":"PAY-29d58","Amount":2,"Method":"Credit Card","Status":"Success","TimeStamp":"2026-06-13 22:58:08"}
 {"PaymentId":"PAY-807ce","Amount":3.4900000000000002,"Method":"Credit Card","Status":"Success","TimeStamp":"2026-06-13 23:39:52"}
 {"PaymentId":"PAY-70fa0","Amount":2.98,"Method":"Credit Card","Status":"Success","TimeStamp":"2026-06-13 23:41:59"}
+{"PaymentId":"PAY-2b724","Amount":19.98,"Method":"Bank Transfer","Status":"Success","TimeStamp":"2026-06-14 15:52:52"}
+{"PaymentId":"PAY-65f29","Amount":19.98,"Method":"Bank Transfer","Status":"Success","TimeStamp":"2026-06-14 15:55:47"}
+{"PaymentId":"PAY-11417","Amount":19.98,"Method":"Bank Transfer","Status":"Success","TimeStamp":"2026-06-14 17:12:41"}

@@ -13,7 +13,7 @@ namespace Shopping_System.Components
         public string Status { get; set; }
         public string TimeStamp { get; set; }
 
-        private static string filePath = "C:\\Users\\AAC\\source\\repos\\Online-Shopping-System\\Shopping System\\Data\\payments.json";
+        private static string filePath = Path.Combine(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.FullName, "Data", "payments.json");//this will give payment.json from the current project directory,
 
         public Payment() { }
 
@@ -37,7 +37,7 @@ namespace Shopping_System.Components
                 Console.ResetColor();
 
                 string failedJson = JsonSerializer.Serialize(this);
-                File.AppendAllText(filePath, failedJson + "\n");
+                File.AppendAllText(filePath, failedJson + Environment.NewLine);
 
                 return false;
             }
@@ -49,7 +49,7 @@ namespace Shopping_System.Components
                 Console.ResetColor();
 
                 string successJson = JsonSerializer.Serialize(this);
-                File.AppendAllText(filePath, successJson + "\n");
+                File.AppendAllText(filePath, successJson + Environment.NewLine);
 
                 PrintReceipt();
                 return true;

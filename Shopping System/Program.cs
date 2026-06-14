@@ -15,8 +15,10 @@ namespace Shopping_System
         {
 
 
-            User_System.Customer customer = new User_System.Customer();
-            customer.PromptForDetails();
+            //User_System.Customer customer = new User_System.Customer();
+            //customer.PromptForDetails();
+
+            Menu_System.MainMenu();
 
             //ProductManager.AddProduct();
             //Cart.ShoppingUI();
@@ -30,12 +32,8 @@ namespace Shopping_System
 
 
 
-            //Product p1 = new Product(productName:"keychain", price: 10.0, stockQuantity: 100, category: "Accessories");
-            //p1.DisplayProducts(1);
 
 
-            //Continous_Running_System cont_running = new Continous_Running_System();
-            //cont_running.continous_system();
 
 
         }

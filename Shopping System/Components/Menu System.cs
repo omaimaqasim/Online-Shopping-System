@@ -86,6 +86,8 @@ namespace Shopping_System
                         break;
 
                     case 5:
+
+                        Cart.DisplayCart();
                         Console.Write("Enter Product ID: ");
                         string updateId = Console.ReadLine() ?? "";
 
@@ -131,7 +133,8 @@ namespace Shopping_System
 
             do
             {
-                Console.Clear();
+
+               Console.Clear();
                 AdminMenu();
 
                 string input = Console.ReadLine();

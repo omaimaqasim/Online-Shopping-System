@@ -1,112 +1,141 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Shopping_System
+namespace Project.Components
 {
     internal class User_System
     {
-        public interface IInputable
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+
+        public User_System(string name, string email, string phone)
         {
-            void PromptForDetails();
+            Name = name;
+            Email = email;
+            Phone = phone;
         }
+    }
 
-        public abstract class User
+    internal class Customer : User_System
+    {
+        public string Password { get; set; }
+
+        public Customer(string name, string email, string phone, string password)
+            : base(name, email, phone)
         {
-            public string Username { get; set; }
-            public string Password { get; set; }
-            public string Email { get; set; }
+            Password = password;
+        }
+    }
 
-            public bool IsLoggedIn { get; set; } = false;
+    internal class Admin : User_System
+    {
+        public string Password { get; set; }
 
-            public bool Login(string inputUsername, string inputPassword)
+        public Admin() : base("Admin", "admin@gmail.com", "0000000000")
+        {
+            Password = "admin123";
+        }
+    }
+
+    internal static class UserManager
+    {
+        private static List<Customer> _customers = new List<Customer>();
+        private static Admin _admin = new Admin();
+
+        public static Customer CurrentCustomer { get; private set; }
+
+        public static bool CustomerLogin()
+        {
+            Console.WriteLine("\n=== CUSTOMER LOGIN ===");
+            Console.Write("Email: ");
+            string email = Console.ReadLine().Trim();
+
+            Customer found = null;
+
+            foreach (Customer c in _customers)
             {
-                if (inputUsername == Username && inputPassword == Password)
+                if (c.Email.ToLower() == email.ToLower())
                 {
-                    IsLoggedIn = true;
-                    Console.WriteLine($"\n[Success] Logged in successfully as {Username}!");
-                    return true;
+                    found = c;
+                    break;
                 }
-                else
-                {
-                    IsLoggedIn = false;
-                    Console.WriteLine("\n[Error] Invalid username or password.");
+            }
+
+            if (found == null)
+            {
+                Console.WriteLine("No account found.");
+                Console.Write("Sign up? (y/n): ");
+
+                if (Console.ReadLine().Trim().ToLower() != "y")
                     return false;
-                }
+
+                found = SignUp();
             }
-            public abstract void DisplayDashboard();
-            public abstract void PromptForDetails();
+
+            Console.Write("Password: ");
+            string pass = Console.ReadLine();
+
+            if (found.Password != pass)
+            {
+                Console.WriteLine("Incorrect password!");
+                Console.ReadKey();
+                return false;
+            }
+
+            CurrentCustomer = found;
+            Console.WriteLine("Welcome, " + found.Name + "!");
+            Console.ReadKey();
+            return true;
         }
 
-        public class Customer : User, IInputable
+        public static bool AdminLogin()
         {
-            public string ShippingAddress { get; set; }
+            Console.WriteLine("\n=== ADMIN LOGIN ===");
+            Console.Write("Email: ");
+            string email = Console.ReadLine().Trim();
 
-            public override void PromptForDetails()
+            Console.Write("Password: ");
+            string pass = Console.ReadLine();
+
+            if (email.ToLower() != _admin.Email.ToLower() || pass != _admin.Password)
             {
-                Console.WriteLine("\n--- CUSTOMER SIGN-UP ---");
-                Console.Write("Set Username: ");
-                Username = Console.ReadLine();
-
-                Console.Write("Set Password: ");
-                Password = Console.ReadLine();
-
-                Console.Write("Enter Email: ");
-                Email = Console.ReadLine();
-
-                Console.Write("Enter Delivery Address: ");
-                ShippingAddress = Console.ReadLine();
-
-                Login(Username, Password);
-                DisplayDashboard();
+                Console.WriteLine("Invalid credentials!");
+                Console.ReadKey();
+                return false;
             }
 
-            public override void DisplayDashboard()
-            {
-                if (!IsLoggedIn)
-                {
-                    Console.WriteLine("\n[Access Denied] You must log in first.");
-                    return;
-                }
-
-                Menu_System.MainMenu();
-
-            }
+            Console.WriteLine("Welcome, Admin!");
+            Console.ReadKey();
+            return true;
         }
 
-        public class Admin : User, IInputable
+        private static Customer SignUp()
         {
-            public int AdminLevel { get; set; }
+            Console.WriteLine("\n=== SIGN UP ===");
 
-            public override void PromptForDetails()
-            {
-                Console.WriteLine("\n--- ADMIN PROVISIONING ---");
-                Console.Write("Set Admin Username: ");
-                Username = Console.ReadLine();
+            Console.Write("Name: ");
+            string name = Console.ReadLine().Trim();
 
-                Console.Write("Set Admin Password: ");
-                Password = Console.ReadLine();
+            Console.Write("Email: ");
+            string email = Console.ReadLine().Trim();
 
-                Console.Write("Enter Admin Email: ");
-                Email = Console.ReadLine();
+            Console.Write("Phone: ");
+            string phone = Console.ReadLine().Trim();
 
-                Login(Username, Password);
-                DisplayDashboard();
-            }
+            Console.Write("Password: ");
+            string pass = Console.ReadLine();
 
-            public override void DisplayDashboard()
-            {
-                if (!IsLoggedIn)
-                {
-                    Console.WriteLine("\n[Access Denied] You must log in first.");
-                    return;
-                }
+            Customer customer = new Customer(name, email, phone, pass);
+            _customers.Add(customer);
 
-                Menu_System.MainMenu();
+            Console.WriteLine("Account created!");
+            return customer;
+        }
 
-            }
+        public static void LogoutCustomer()
+        {
+            CurrentCustomer = null;
         }
     }
 }

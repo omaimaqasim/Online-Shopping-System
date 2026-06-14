@@ -292,7 +292,7 @@
     "ProductId": "e2f3g",
     "Description": "No description provided",
     "Price": 1.49,
-    "StockQuantity": 88,
+    "StockQuantity": 86,
     "Category": "Food",
     "AverageRating": 0
   },
@@ -436,7 +436,7 @@
     "ProductId": "g9h1j",
     "Description": "No description provided",
     "Price": 14.25,
-    "StockQuantity": 6,
+    "StockQuantity": 4,
     "Category": "Kitchen",
     "AverageRating": 0
   },

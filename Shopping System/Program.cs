@@ -13,27 +13,7 @@ namespace Shopping_System
     {
         static void Main(string[] args)
         {
-
-
-            //User_System.Customer customer = new User_System.Customer();
-            //customer.PromptForDetails();
-
             Menu_System.MainMenu();
-
-            //ProductManager.AddProduct();
-            //Cart.ShoppingUI();
-            //Cart.DisplayCart();
-            //Cart.UpdateQuantity("g9h1j", 1);
-            //Cart.RemoveFromCart("g9h1j");
-
-
-
-
-
-
-
-
-
         }
     }
 }

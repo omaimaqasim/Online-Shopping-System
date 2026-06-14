@@ -70,13 +70,20 @@ namespace Shopping_System
                 switch (choice)
                 {
                     case 1:
-                        Menu_System customer = new CustomerMenu_System();
-                        customer.Display();
+                        if (UserManager.CustomerLogin())          
+                        {
+                            Menu_System customer = new CustomerMenu_System();
+                            customer.Display();
+                            UserManager.LogoutCustomer();         
+                        }
                         break;
 
                     case 2:
-                        Menu_System admin = new AdminMenu_System();
-                        admin.Display();
+                        if (UserManager.AdminLogin())             
+                        {
+                            Menu_System admin = new AdminMenu_System();
+                            admin.Display();
+                        }
                         break;
 
                     case 3:

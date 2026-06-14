@@ -27,8 +27,6 @@ namespace Shopping_System
             //Cart.RemoveFromCart("g9h1j");
 
 
-            //Continous_Running_System cont_running = new Continous_Running_System();
-            //cont_running.continous_system();
 
 
 

@@ -36,7 +36,7 @@ namespace Shopping_System
             else if (choice == "3") paymentMethod = "Bank Transfer";
             else if (choice == "4")
             {
-                Menu_System.CustomerMenu();
+               
                 return;
             }
 
